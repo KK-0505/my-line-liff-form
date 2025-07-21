@@ -30,11 +30,11 @@
 
     <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
     <script>
-        const GAS_WEB_APP_URL = 'YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL'; // <--- 請換成你的 GAS 網址
+        const GAS_WEB_APP_URL = https://script.google.com/macros/s/AKfycbzNpj0fcyfPToOZgdi1Mp8cbRmJD8bzwVdQ9Zjbma9-PSoWxlnQQS0gTMxFwl_SSCc/exec; // <--- 請換成你的 GAS 網址
 
         async function main() {
             // 1. 初始化 LIFF
-            await liff.init({ liffId: "YOUR_LIFF_ID" }); // <--- 請換成你的 LIFF ID
+            await liff.init({ liffId: 2007760630-nm9rL4PW }); // <--- 請換成你的 LIFF ID
 
             if (!liff.isLoggedIn()) {
                 liff.login();
